@@ -6,11 +6,9 @@
   "scripts": {
     "dev": "vite --port 3000 --host",
     "build": "vite build",
-    "deploy": "vite build && gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "homepage": "https://ziyadanbari.github.io/password-generator",
   "dependencies": {
     "clipboard-copy": "^4.0.1",
     "js-generate-password": "^0.1.9",
